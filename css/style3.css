@@ -1,0 +1,255 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2&display=swap');
+#offer{
+    height: 800px;
+}
+.container-offer{
+    /* border: 1px grey solid; */
+    width:80%;
+    margin: auto;
+    height: 500px;
+    padding-left: 32px;
+    padding-top: 2px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.offer-item{
+    border: 1px #e8e8e8 solid;
+    width: 30%;
+    height: 45%;
+    /* float: left; */
+    margin: 1.1%;
+    padding: 20px 15px 0 70px;
+    position: relative;
+    border-radius: 3px;
+    box-shadow: 4px 2px 18px #80808029;;
+}
+.offer-item-title{
+    text-transform:capitalize;
+    margin: 0;
+    margin-bottom: 15px;
+    font-family: 'Baloo Tammudu 2', cursive;
+    font-size: 20pt;
+    transition: color 0.8s;
+}
+.offer-item p{
+    line-height: 1.6;
+    font-family: roboto;
+    margin-bottom: 25px;
+}
+.icons-offer{
+    color:#6195ff;
+    position: absolute;
+    top:28px;
+    left: 15px;
+    transition: color 0.8s;
+}
+.a-offer{
+    text-transform: capitalize;
+    color: blue;
+    transition: color .8s;
+    text-decoration: none;
+}
+.a-offer:hover{
+    text-decoration: underline;
+}
+
+/*          identification         */
+#ident{
+    height: 600px;
+    /* border: 1px grey solid; */
+    margin-bottom: 50px;
+}
+.ident-container{
+    width: 80%;
+    /* border: 1px dashed grey; */
+    height: 75%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 130px;
+}
+.ident-container div{
+    /* background-color: cornsilk; */
+    width: 50%;
+    height: 100%;
+    margin: 0;
+}
+.track{
+        width: 70px;
+        height: 4px;
+        background-color: #6195ff;
+        display: block;
+        margin: 20px 0 35px 0px;
+}
+div[class="part-st"]{
+    height: 480px;
+}
+div[class="part-nd"]{
+    height: 480px;
+    width: 50%;
+}
+.part-st p{
+    font-family: Roboto;
+    line-height: 1.2;
+    font-size: 14pt;
+    margin-bottom: 10px;
+    color:#606060;
+}
+#img-holder{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.img-ident{
+    height: 83%;
+}
+.ul-ident{
+    margin-top: 50px;
+    list-style: none;
+}
+.icons-ul{
+    color: #6195ff;
+}
+.ul-ident li{
+    line-height: 2.3;
+    font-family: inherit;
+    font-size: 12pt;
+}
+/*            section *** number               */
+.numbers{
+    background-image:linear-gradient( #030303a3 ,rgba(0, 0, 0, 0.779)), url(../images/background/background2.webp);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.container-items{
+    height: 40%;
+    width: 70%;
+    /* border: 1px dashed white; */
+    margin: auto;
+}
+.items{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.numbers-items{
+    text-align: center;
+}
+.i-items{
+    color: #4e85f5;
+    margin-bottom: 30px;
+}
+.number-item-title{
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 10px;
+    color: #fff;
+    font-family: sans-serif;
+    font-weight:normal;
+}
+.number-item-text{
+    text-transform: capitalize;
+    color: #fff;
+    font-size: 16px;
+    font-family: Roboto;
+}
+
+
+
+/*                  pricing                    */
+
+.section-title{
+    text-align: center;
+}
+.pricing{
+    height: 800px;
+}
+.container-pricing{
+    height: 450px;
+    width: 80%;
+    /* border: 1px dashed grey; */
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.unit{
+    height: 60%;
+}
+.pricing-item-text{
+    text-transform: uppercase;
+    font-family: sans-serif;
+    color: rgb(58, 58, 58);
+    margin-bottom:31px;
+    margin-top: 11px;
+    display: inline-block;
+    font-size: 16pt;
+}
+.permonth{
+    width: 130px;
+    height: 130px;
+    border-radius: 100%;
+    position: relative;
+    margin-top: 21px;
+    border:1px #6195ff solid;
+    margin: auto;
+    margin-bottom: 21px;
+}
+.price{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 26pt;
+    font-weight: bolder;
+    font-family: 'Baloo Tammudu 2';
+}
+.duration{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,40%);
+}
+.unit {
+    text-align: center;
+    height: 100%;
+    width: 100%;
+}
+.unit ul {
+    list-style: none;
+}
+.unit ul li{
+    text-align: center;
+    line-height: 2.6;
+    font-size: 14pt;
+    color: rgb(58, 58, 58);
+}
+.purchase{
+    background-color: transparent;
+    border: 1px solid #6195ff;
+    color: #6195ff;
+    padding: 15px 20px ;
+    outline: 0;
+    cursor: pointer;
+    text-transform: capitalize;
+    transition:color .7s;
+    transition:background 1s;
+    margin-top: 16px;
+}
+.purchase:hover{
+    background-color: #6195ff;
+    color: white;
+}

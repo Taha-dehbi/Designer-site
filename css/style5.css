@@ -1,0 +1,120 @@
+.form{
+    /* border:1px grey dashed; */
+    height: 800px;
+}
+.container-mean{
+    /* border: 1px dashed grey; */
+    height: 470px;
+    width: 80%;
+    margin: auto;
+}
+.worker-mean{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    /* background-color: grey; */
+    width: 800px;
+    height: 100px;
+    margin: auto;
+}
+.worker-mean div{
+    text-align: center;
+}
+.i-mean{
+    color: #3876f3e6;
+}
+.mean-name{
+    text-transform: uppercase;
+    margin-top: 10px;
+    font-family: system-ui;
+}
+.info-mean{
+    display: block;
+    margin-top: 10px;
+    color: rgba(0, 0, 0, 0.779);
+}
+.form-div{
+    height: 300px;
+    width: 620px;
+    margin: auto;
+    margin-top: 25px;
+}
+.form-div input{
+    display: block;
+}
+.form-div .name{
+    display: inline-block;
+    outline: none;
+    border: none;
+    margin: 10px;
+    background-color: #8080801f;
+    width: 46%;
+    padding: 10px;
+}
+.form-div .mail{
+    display: inline-block;
+    outline: none;
+    border: none;
+    margin: 10px;
+    background-color: #8080801f;
+    width: 46%;
+    padding: 10px;
+}
+.subject{
+    display: inline-block;
+    outline: none;
+    border: none;
+    margin: 10px;
+    background-color: #8080801f;
+    width: 96%;
+    padding: 10px;
+}
+.form-div textarea{
+    margin: 10px;
+    width: 96%;
+    height: 140px;
+    outline: none;
+    border-radius: 5px;
+    background-color: #8080801f;
+    border: none;
+    padding: 10px;
+}
+.form-div input[type="button"]{
+    background-color: transparent;
+    border: 1px solid #6195ff;
+    color: #6195ff;
+    padding: 15px 20px;
+    outline: 0;
+    cursor: pointer;
+    text-transform: capitalize;
+    transition:background 1s, color .5s;
+    margin: auto;
+}
+.form-div input[type="button"]:hover{
+    background-color: #6195ff;
+    color: white;
+}
+footer{
+    background-color: rgb(39, 39, 39);
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.i-footer{
+    color: white;
+    background-color: #6195ff;
+    margin: 2px;
+    padding: 10px;
+    cursor: pointer;
+}
+.p p{
+    color: white;
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+.p i{
+    color: white;
+}

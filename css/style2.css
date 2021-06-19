@@ -1,0 +1,80 @@
+/*                  protofolio                   */
+
+.proto-box {
+    width: 78%;
+    height: 670px;
+    /* background-color: aqua; */
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.img-div{
+    /* background-color: brown; */
+    height: 325px;
+    width: 325px;
+    display: inline-block;
+    float: left;
+    margin: 6px;
+    position: relative;
+}
+.img-proto {
+    float: left;
+    width: 321px;
+    margin: 1%;
+}
+.layer-content{
+    transition: visibility 1s;
+    transition: opacity 1s;
+}
+.layer-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: #242424d5;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    opacity: 0;
+    visibility: hidden;
+}
+.img-div:hover .layer-content{
+    opacity: 1;
+    visibility: visible;
+}
+
+.layer-content span{
+    text-transform:uppercase;
+    color:#6195ff;
+    margin: 10px;
+    position: relative;
+    top: 10px;
+    transition:top 0.3s;
+}
+.layer-content h3{
+    color:rgb(238, 238, 238);
+    font-family: roboto;
+    word-spacing: 10px;
+    font-size: 16pt;
+    position: relative;
+    top: 10px;
+    transition:top 0.6s;
+}
+.layer-content div{
+    margin-top: 20px;
+    position: relative;
+    top: 15px;
+    transition:top 0.9s;
+}
+.img-div:hover .layer-content div, .img-div:hover .layer-content h3, .img-div:hover .layer-content span{
+    top:0;
+}
+.layer-content div i{
+    background-color: #6195ff;
+    color: white;
+    padding: 10px;
+}
